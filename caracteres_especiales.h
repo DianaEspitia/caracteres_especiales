@@ -15,14 +15,14 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-/**********************************************************/
-/* Biblioteca : caracteres_espaciales.                    */
-/* DescripciOn: Define un conjunto de macros que          */
-/*              representan los carActeres especiales de  */
-/*              uso frecuente en el espaniol.             */
-/*              las vocales acentuadas. La definiciOn     */
-/*              se hace tomando en cuenta el sistema.     */
-/**********************************************************/
+/*************************************************************/
+/* Biblioteca : caracteres_espaciales.                       */
+/* DescripciOn: Define un conjunto de macros que             */
+/*              representan los carActeres especiales de     */
+/*              uso frecuente en el espaniol. Principalmente */
+/*              las vocales acentuadas. La definiciOn        */
+/*              se hace tomando en cuenta el sistema.        */
+/*************************************************************/
 
 #ifndef _CARACTERES_ESPECIALES_H
 #define _CARACTERES_ESPECIALES_H
