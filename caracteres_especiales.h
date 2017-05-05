@@ -28,6 +28,8 @@
 #ifndef _CARACTERES_ESPECIALES_H
 #define _CARACTERES_ESPECIALES_H
 
+#define PRUEBA 1
+
 /*=============================*
  * Caracteres para el espaniol *
  *=============================*/
@@ -155,8 +157,8 @@ const char * CAJA1[11] = {
 // Caja con lineas dobles
 const char * CAJA2[11] = {
     "\xC9", "\xBB", "\xBC", "\xC8",
-    "\xCB", "\xB9", "\xCB", "\xCC",
-    "\xCD", "\xCA", "\xCA"
+    "\xCB", "\xB9", "\xCA", "\xCC",
+    "\xCD", "\xBA", "\xCE"
 };
 
 // La caja con esquinas redondeadas no existe en windows
@@ -233,17 +235,17 @@ const char * CAJA3[11] = {
 
 #define INFINITO                "\xEC"
 
-#define CRUZ1                   "\x86"
-#define CRUZ2                   "\x87"
-#define CRUZ3                   "\x86"
-#define CRUZ5                   "\x86"
-#define CRUZ6                   "\x86"
-#define CRUZ7                   "\x86"
-#define CRUZ8                   "\x86"
-#define CRUZ9                   "\x86"
-#define CRUZ10                  "\x86"
-#define CRUZ11                  "\x86"
-#define CRUZ12                  "\x86"
+#define CRUZ1                   "\xC5"
+#define CRUZ2                   "\xC5"
+#define CRUZ3                   "\xC5"
+#define CRUZ5                   "\xC5"
+#define CRUZ6                   "\xC5"
+#define CRUZ7                   "\xC5"
+#define CRUZ8                   "\xC5"
+#define CRUZ9                   "\xC5"
+#define CRUZ10                  "\xC5"
+#define CRUZ11                  "\xC5"
+#define CRUZ12                  "\xC5"
 
 // Simbolos de gEnero
 #define FEMENINO                "\x0C"
