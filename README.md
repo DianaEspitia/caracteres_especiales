@@ -1,2 +1,2 @@
 # caracteres_especiales
-Macros para los acentos y otros caracteres en c.
+Macro definition for most useful especial characters
