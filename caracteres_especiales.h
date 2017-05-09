@@ -171,7 +171,7 @@ const char * CAJA3[11] = {
 
 /*-* Caja con lineas simples *-*/
 const char * CAJA1[11] = {
-    "\u250C", "\u2512", "\u2518", "\u2514",
+    "\u250C", "\u2510", "\u2518", "\u2514",
     "\u252C", "\u2524", "\u2534", "\u251C",
     "\u2500", "\u2502", "\u253C"
 };
@@ -296,7 +296,7 @@ const char * CAJA3[11] = {
 
 /*-* SImbolos matemAticos *-*/
 #define RAIZ                    "\xFB"
-#define INFINITO                "\xEC"
+#define INFINITO                "oo"
 
 #define INTEGRAL_ARRIBA         "\xF4"
 #define INTEGRAL_ABAJO          "\xF5"
@@ -314,15 +314,15 @@ const char * CAJA3[11] = {
 #define BETA                    "\xE1"
 #define GAMMA                   "\xE2"
 #define PI                      "\xE3"
-#define SIGMA                   "\xE4"
-#define SIGMA_MAYUS             "\xE5"
+#define SIGMA_MINUS             "\xE4"
+#define SIGMA                   "\xE5"
 #define MU                      "\xE6"
 #define TAU                     "\xE7"
-#define PHI_MAYUS               "\xE8"
+#define PHI                     "\xE8"
 #define THETA                   "\xE9"
 #define OMEGA                   "\xEA"
 #define DELTA                   "\xEB"
-#define PHI                     "\xEC"
+#define PHI_MINUS               "\xEC"
 #define EPSILON                 "\xED"
 
 #else // 4
@@ -369,7 +369,7 @@ const char * CAJA3[11] = {
 #define FLECHA_IZQUIERDA        "\u2190"
 #define FLECHA_DERECHA          "\u2192"
 #define FLECHA_ARRIBA           "\u2191"
-#define FLECHA_ABAJO            "\u9193"
+#define FLECHA_ABAJO            "\u2193"
 
 #define PUNTA_IZQUIERDA         "\u25C4"
 #define PUNTA_DERECHA           "\u25BA"
@@ -407,7 +407,7 @@ const char * CAJA3[11] = {
 
 /*-* SImbolos matemAticos *-*/
 #define RAIZ                    "\u221A"
-#define INFINITO                "\u221E
+#define INFINITO                "\u221E"
 
 #define INTEGRAL_ARRIBA         "\u2320"
 #define INTEGRAL_ABAJO          "\u2321"
@@ -427,7 +427,7 @@ const char * CAJA3[11] = {
 #define PI                      "\u03C0"
 #define SIGMA                   "\u03A3"
 #define SIGMA_MINUS             "\u03C3"
-#define MU                      "\u00B5"
+#define MIU                      "\u00B5"
 #define TAU                     "\u03C4"
 #define PHI                     "\u03A6"
 #define THETA                   "\u0398"
