@@ -213,6 +213,9 @@ const char * CAJA3[11] = {
 
 #ifdef _WIN32 // 4
 
+#define CARITA1                 "\x01"
+#define CARITA2                 "\x02"
+
 #define EQUIS                   "\x9E"
 #define CIRCULO_TRANSPARENTE    "\x4F"
 #define CIRCULO_NEGRO           "\x9D"
@@ -227,6 +230,16 @@ const char * CAJA3[11] = {
 #define CORAZON4                "\x03"
 #define CORAZON5                "\x03"
 #define CORAZON6                "\x03"
+
+#define POKER1                  "\x03"
+#define POKER2                  "\x04"
+#define POKER3                  "\x05"
+#define POKER4                  "\x06"
+
+#define NOTA_MUSICAL1           "\x0D"
+#define NOTA_MUSICAL2           "\x0E"
+
+#define SOL                     "\x0F"
 
 #define INFINITO                "oo"
 
@@ -276,6 +289,9 @@ const char * CAJA3[11] = {
 
 #else // 4
 
+#define CARITA1                 "\u263A"
+#define CARITA2                 "\u263B"
+
 #define EQUIS                   "\u00D7"
 #define CIRCULO_TRANSPARENTE    "\u25CB"
 #define CIRCULO_NEGRO           "\u25CF"
@@ -288,6 +304,16 @@ const char * CAJA3[11] = {
 #define CORAZON4                "\u2766"
 #define CORAZON5                "\u2767"
 #define CORAZON6                "\u10E6"
+
+#define POKER1                  "\u2665"
+#define POKER2                  "\u2666"
+#define POKER3                  "\u2663"
+#define POKER4                  "\u2660"
+
+#define NOTA_MUSICAL1           "\u266A"
+#define NOTA_MUSICAL2           "\u266B"
+
+#define SOL                     "\u263C"
 
 #define INFINITO                "\u221E
 
