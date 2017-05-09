@@ -21,20 +21,18 @@
 /*              representan los carActeres especiales de     */
 /*              uso frecuente en el espaniol. Principalmente */
 /*              las vocales acentuadas y tambiEn algunos     */
-/*              simbolos de dibujo de calas. La definiciOn   */
+/*              sImbolos de dibujo. La definiciOn            */
 /*              se hace tomando en cuenta el sistema.        */
 /*************************************************************/
 
 #ifndef _CARACTERES_ESPECIALES_H
 #define _CARACTERES_ESPECIALES_H
 
-#define PRUEBA 1
-
 /*=============================*
- * Caracteres para el espaniol *
+ * CAracteres para el espaniol *
  *=============================*/
 
-#ifdef _WIN32
+#ifdef _WIN32 // 1
 
     /*-* Comando para limpiar la pantalla *-*/
     #define CLEAR "cls"
@@ -61,7 +59,7 @@
     /*-* Signo de exclamaciOn inicial *-*/
     #define X  "\xAD"
 
-#else // unix
+#else // 1
 
     /*-* Comando para limpiar la pantalla *-*/
     #define CLEAR "clear"
@@ -88,7 +86,7 @@
     /*-* Signo de exclamaciOn inicial *-*/
     #define X  "\u00A1"
 
-#endif // Fin _WIN32
+#endif // Fin _WIN32 1
 
 /*========================*
  * CarActeres para dibujo *
@@ -145,16 +143,16 @@
 #define CENTRO                      10
 #define CEN                         10
 
-#ifdef _WIN32
+#ifdef _WIN32 // 2
 
-// Caja con lineas simples
+/*-* Caja con lineas simples *-*/
 const char * CAJA1[11] = {
     "\xDA", "\xBF", "\xD9", "\xC0",
     "\xC2", "\xB4", "\xC1", "\xC3",
     "\xC4", "\xB3", "\xC5"
 };
 
-// Caja con lineas dobles
+/*-* Caja con lineas dobles *-*/
 const char * CAJA2[11] = {
     "\xC9", "\xBB", "\xBC", "\xC8",
     "\xCB", "\xB9", "\xCA", "\xCC",
@@ -169,54 +167,51 @@ const char * CAJA3[11] = {
     "-", "|", "+"
 };
 
-#else // else _WIN32
+#else // 2
 
-// Caja con lineas simples
+/*-* Caja con lineas simples *-*/
 const char * CAJA1[11] = {
     "\u250C", "\u2512", "\u2518", "\u2514",
     "\u252C", "\u2524", "\u2534", "\u251C",
     "\u2500", "\u2502", "\u253C"
 };
 
-// Caja con lineas dobles
+/*-* Caja con lineas dobles *-*/
 const char * CAJA2[11] = {
     "\u2554", "\u2557", "\u255D", "\u255A",
     "\u2566", "\u2563", "\u2569", "\u2560",
     "\u2550", "\u2551", "\u256C"
 };
 
-// Caja con esquinas redondeadas
+/*-* Caja con esquinas redondeadas *-*/
 const char * CAJA3[11] = {
     "\u256D", "\u256E", "\u256F", "\u2570",
     "\u252C", "\u2524", "\u2534", "\u251C",
     "\u2500", "\u2502", "\u253C"
 };
 
-#endif // Fin _WIN32
+#endif // Fin _WIN32 2
 
-/*
- * CarActeres de bloque
- */
+/*-* CarActeres de bloque *-*/
 
-#ifdef _WIN32
+#ifdef _WIN32 // 3
 
 #define BDB "\xB0"        // Bloque Densidad Baja
 #define BDM "\xB1"        // Bloque Densidad Media
 #define BDA "\xB2"        // Bloque Densidad Alta
 
-#else // else _WIN32
+#else // 3
 
 #define BDB "\u2591"      // Bloque Densidad Baja
 #define BDM "\u2592"      // Bloque Densidad Media
 #define BDA "\u2593"      // Bloque Densidad Alta
 
-#endif // _WIN32
+#endif // Fin _WIN32 3
 
-/*
- * Otros carActeres de dibujo
- */
 
-#ifdef _WIN32 
+/*-* Otros carActeres de dibujo  *-*/
+
+#ifdef _WIN32 // 4
 
 #define EQUIS                   "\x9E"
 #define CIRCULO_TRANSPARENTE    "\x4F"
@@ -233,7 +228,7 @@ const char * CAJA3[11] = {
 #define CORAZON5                "\x03"
 #define CORAZON6                "\x03"
 
-#define INFINITO                "\xEC"
+#define INFINITO                "oo"
 
 #define CRUZ1                   "\xC5"
 #define CRUZ2                   "\xC5"
@@ -247,11 +242,11 @@ const char * CAJA3[11] = {
 #define CRUZ11                  "\xC5"
 #define CRUZ12                  "\xC5"
 
-// Simbolos de gEnero
+/*-* SImbolos de gEnero *-*/
 #define FEMENINO                "\x0C"
 #define MASCULINO               "\x0D"
 
-// Estos simbolos no estAn es ascii
+// Estos sImbolos no estAn es ascii
 // por lo que se pueso algo que se
 // pareciera
 #define SIMBOLO_PAZ             "\xBC"
@@ -279,7 +274,7 @@ const char * CAJA3[11] = {
 #define LUNA1                   "\x28"
 #define LUNA1                   "\x29"
 
-#else // else _WIN32
+#else // 4
 
 #define EQUIS                   "\u00D7"
 #define CIRCULO_TRANSPARENTE    "\u25CB"
@@ -309,7 +304,7 @@ const char * CAJA3[11] = {
 #define CRUZ11                  "\u2720"
 #define CRUZ12                  "\u271A"
 
-// Simbolos de gEnero
+/*-* SImbolos de gEnero *-*/
 #define FEMENINO                "\u2640"
 #define MASCULINO               "\u2642"
 
@@ -338,6 +333,6 @@ const char * CAJA3[11] = {
 #define LUNA1                   "\u263E"
 #define LUNA2                   "\u263D"
 
-#endif // fin _WIN32
+#endif // Fin _WIN32 4
 
 #endif // Fin _CARACTERES_ESPECIALES_H
