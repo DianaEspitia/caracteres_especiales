@@ -241,8 +241,6 @@ const char * CAJA3[11] = {
 
 #define SOL                     "\x0F"
 
-#define INFINITO                "oo"
-
 #define CRUZ1                   "\xC5"
 #define CRUZ2                   "\xC5"
 #define CRUZ3                   "\xC5"
@@ -255,13 +253,22 @@ const char * CAJA3[11] = {
 #define CRUZ11                  "\xC5"
 #define CRUZ12                  "\xC5"
 
+#define FLECHA_IZQUIERDA        "\x1B"
+#define FLECHA_DERECHA          "\x1A"
+#define FLECHA_ARRIBA           "\x18"
+#define FLECHA_ABAJO            "\x17"
+
+#define PUNTA_IZQUIERDA         "\x11"
+#define PUNTA_DERECHA           "\x10"
+#define PUNTA_ARRIBA            "\x1E"
+#define PUNTA_ABAJO             "\x1F"
+
 /*-* SImbolos de gEnero *-*/
 #define FEMENINO                "\x0C"
 #define MASCULINO               "\x0D"
 
 // Estos sImbolos no estAn es ascii
-// por lo que se pueso algo que se
-// pareciera
+// por lo que se puso algo que se pareciera
 #define SIMBOLO_PAZ             "\xBC"
 #define AMOR_Y_PAZ              "\x59"
 
@@ -285,7 +292,38 @@ const char * CAJA3[11] = {
 #define ESTRELLA18              "\x2A"
 
 #define LUNA1                   "\x28"
-#define LUNA1                   "\x29"
+#define LUNA2                   "\x29"
+
+/*-* SImbolos matemAticos *-*/
+#define RAIZ                    "\xFB"
+#define INFINITO                "\xEC"
+
+#define INTEGRAL_ARRIBA         "\xF4"
+#define INTEGRAL_ABAJO          "\xF5"
+
+#define MAS_MENOS               "\xF1"
+#define MENOR_IGUAL             "\xF3"
+#define MAYOR_IGUAL             "\xF2"
+#define APROXIMADO              "\xF6"
+#define EXACTO                  "\xF0"
+
+#define UNION                   "U"
+#define INTERSECCION            "\xEF"
+
+#define ALFA                    "\xE0"
+#define BETA                    "\xE1"
+#define GAMMA                   "\xE2"
+#define PI                      "\xE3"
+#define SIGMA                   "\xE4"
+#define SIGMA_MAYUS             "\xE5"
+#define MU                      "\xE6"
+#define TAU                     "\xE7"
+#define PHI_MAYUS               "\xE8"
+#define THETA                   "\xE9"
+#define OMEGA                   "\xEA"
+#define DELTA                   "\xEB"
+#define PHI                     "\xEC"
+#define EPSILON                 "\xED"
 
 #else // 4
 
@@ -315,8 +353,6 @@ const char * CAJA3[11] = {
 
 #define SOL                     "\u263C"
 
-#define INFINITO                "\u221E
-
 #define CRUZ1                   "\u2020"
 #define CRUZ2                   "\u2021"
 #define CRUZ3                   "\u271D"
@@ -329,6 +365,16 @@ const char * CAJA3[11] = {
 #define CRUZ10                  "\u271C"
 #define CRUZ11                  "\u2720"
 #define CRUZ12                  "\u271A"
+
+#define FLECHA_IZQUIERDA        "\u2190"
+#define FLECHA_DERECHA          "\u2192"
+#define FLECHA_ARRIBA           "\u2191"
+#define FLECHA_ABAJO            "\u9193"
+
+#define PUNTA_IZQUIERDA         "\u25C4"
+#define PUNTA_DERECHA           "\u25BA"
+#define PUNTA_ARRIBA            "\u25B2"
+#define PUNTA_ABAJO             "\u25BC"
 
 /*-* SImbolos de gEnero *-*/
 #define FEMENINO                "\u2640"
@@ -358,6 +404,37 @@ const char * CAJA3[11] = {
 
 #define LUNA1                   "\u263E"
 #define LUNA2                   "\u263D"
+
+/*-* SImbolos matemAticos *-*/
+#define RAIZ                    "\u221A"
+#define INFINITO                "\u221E
+
+#define INTEGRAL_ARRIBA         "\u2320"
+#define INTEGRAL_ABAJO          "\u2321"
+
+#define MAS_MENOS               "\u00B1"
+#define MENOR_IGUAL             "\u2264"
+#define MAYOR_IGUAL             "\u2265"
+#define APROXIMADO              "\u2248"
+#define EXACTO                  "\u2261"
+
+#define UNION                   "U"
+#define INTERSECCION            "\u2229"
+
+#define ALFA                    "\u03B1"
+#define BETA                    "\u00DF"
+#define GAMMA                   "\u0390"
+#define PI                      "\u03C0"
+#define SIGMA                   "\u03A3"
+#define SIGMA_MINUS             "\u03C3"
+#define MU                      "\u00B5"
+#define TAU                     "\u03C4"
+#define PHI                     "\u03A6"
+#define THETA                   "\u0398"
+#define OMEGA                   "\u03A9"
+#define DELTA                   "\u03B4"
+#define PHI_MINUS               "\u03C6"
+#define EPSILON                 "\u03B5"
 
 #endif // Fin _WIN32 4
 
