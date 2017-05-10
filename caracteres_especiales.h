@@ -295,7 +295,7 @@ const char * CAJA3[11] = {
 #define LUNA2                   "\x29"
 
 /*-* SImbolos matemAticos *-*/
-#define RAIZ                    "\xFB"
+#define RAIZ                    "\\/"
 #define INFINITO                "oo"
 
 #define INTEGRAL_ARRIBA         "\xF4"
