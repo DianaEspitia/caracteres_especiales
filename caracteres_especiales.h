@@ -218,9 +218,9 @@ const char * CAJA3[11] = {
 
 #define EQUIS                   "\x9E"
 #define CIRCULO_TRANSPARENTE    "\x4F"
-#define CIRCULO_NEGRO           "\x9D"
+#define CIRCULO_SOLIDO          "\x9D"
 #define CUADRO_TRANSPARENTE     "\xB0"
-#define CUADRO_NEGRO            "\xDC"
+#define CUADRO_SOLIDO           "\xDC"
 
 // En windows solo hay un corazOn aceptado por la terminal
 // por lo que todos son el mismo
@@ -244,6 +244,7 @@ const char * CAJA3[11] = {
 #define CRUZ1                   "\xC5"
 #define CRUZ2                   "\xC5"
 #define CRUZ3                   "\xC5"
+#define CRUZ4                   "\xC5"
 #define CRUZ5                   "\xC5"
 #define CRUZ6                   "\xC5"
 #define CRUZ7                   "\xC5"
@@ -251,12 +252,11 @@ const char * CAJA3[11] = {
 #define CRUZ9                   "\xC5"
 #define CRUZ10                  "\xC5"
 #define CRUZ11                  "\xC5"
-#define CRUZ12                  "\xC5"
 
 #define FLECHA_IZQUIERDA        "\x1B"
 #define FLECHA_DERECHA          "\x1A"
 #define FLECHA_ARRIBA           "\x18"
-#define FLECHA_ABAJO            "\x17"
+#define FLECHA_ABAJO            "\x19"
 
 #define PUNTA_IZQUIERDA         "\x11"
 #define PUNTA_DERECHA           "\x10"
@@ -265,11 +265,11 @@ const char * CAJA3[11] = {
 
 /*-* SImbolos de gEnero *-*/
 #define FEMENINO                "\x0C"
-#define MASCULINO               "\x0D"
+#define MASCULINO               "\x0B"
 
 // Estos sImbolos no estAn es ascii
 // por lo que se puso algo que se pareciera
-#define SIMBOLO_PAZ             "\xBC"
+#define SIMBOLO_PAZ             "(/|\\)"
 #define AMOR_Y_PAZ              "\x59"
 
 #define ESTRELLA1               "\x2A"
@@ -302,21 +302,21 @@ const char * CAJA3[11] = {
 #define INTEGRAL_ABAJO          "\xF5"
 
 #define MAS_MENOS               "\xF1"
-#define MENOR_IGUAL             "\xF3"
-#define MAYOR_IGUAL             "\xF2"
-#define APROXIMADO              "\xF6"
-#define EXACTO                  "\xF0"
+#define MENOR_IGUAL             "<="
+#define MAYOR_IGUAL             ">="
+#define APROXIMADO              "~~"
+#define EXACTO                  "=="
 
 #define UNION                   "U"
-#define INTERSECCION            "\xEF"
+#define INTERSECCION            " _\n| |"
 
-#define ALFA                    "\xE0"
-#define BETA                    "\xE1"
-#define GAMMA                   "\xE2"
-#define PI                      "\xE3"
+#define ALFA                    "a"
+#define BETA                    "b"
+#define GAMMA                   "y"
+#define PI                      "n"
 #define SIGMA_MINUS             "\xE4"
 #define SIGMA                   "\xE5"
-#define MU                      "\xE6"
+#define MIU                     "\xE6"
 #define TAU                     "\xE7"
 #define PHI                     "\xE8"
 #define THETA                   "\xE9"
@@ -332,9 +332,9 @@ const char * CAJA3[11] = {
 
 #define EQUIS                   "\u00D7"
 #define CIRCULO_TRANSPARENTE    "\u25CB"
-#define CIRCULO_NEGRO           "\u25CF"
+#define CIRCULO_SOLIDO          "\u25CF"
 #define CUADRO_TRANSPARENTE     "\u25A1"
-#define CUADRO_NEGRO            "\u25A0"
+#define CUADRO_SOLIDO           "\u25A0"
 
 #define CORAZON1                "\u2764"
 #define CORAZON2                "\u2765"
@@ -418,7 +418,7 @@ const char * CAJA3[11] = {
 #define APROXIMADO              "\u2248"
 #define EXACTO                  "\u2261"
 
-#define UNION                   "U"
+#define UNION                   "\u222A"
 #define INTERSECCION            "\u2229"
 
 #define ALFA                    "\u03B1"
@@ -427,7 +427,7 @@ const char * CAJA3[11] = {
 #define PI                      "\u03C0"
 #define SIGMA                   "\u03A3"
 #define SIGMA_MINUS             "\u03C3"
-#define MIU                      "\u00B5"
+#define MIU                     "\u00B5"
 #define TAU                     "\u03C4"
 #define PHI                     "\u03A6"
 #define THETA                   "\u0398"

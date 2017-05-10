@@ -82,9 +82,9 @@ int main(void) {
     puts("Figuras");
     imp(EQUIS);
     imp(CIRCULO_TRANSPARENTE);
-    imp(CIRCULO_NEGRO);
+    imp(CIRCULO_SOLIDO);
     imp(CUADRO_TRANSPARENTE);
-    imp(CUADRO_NEGRO);
+    imp(CUADRO_SOLIDO);
 
     getchar();
 
