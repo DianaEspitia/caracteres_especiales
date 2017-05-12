@@ -37,6 +37,9 @@
     /*-* Comando para limpiar la pantalla *-*/
     #define CLEAR "cls"
 
+    /*-* Simbolo de diagonal para las rutas *-*/
+    #define DIAG "\\"
+
     /*-* Letras minusculas acentuadas *-*/
     #define A "\xA0"
     #define E "\x82"
@@ -63,6 +66,9 @@
 
     /*-* Comando para limpiar la pantalla *-*/
     #define CLEAR "clear"
+
+    /*-* Simbolo de diagonal para las rutas *-*/
+    #define DIAG "/"
 
     /*-* Letras minusculas *-*/
     #define A "\u00E1"
