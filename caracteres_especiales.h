@@ -32,6 +32,10 @@
  * CAracteres para el espaniol *
  *=============================*/
 
+#ifdef __cplusplus
+extern "C" { // Exportar a cpp
+#endif
+
 #ifdef _WIN32 // 1
 
     /*-* Comando para limpiar la pantalla *-*/
@@ -443,5 +447,9 @@ const char * CAJA3[11] = {
 #define EPSILON                 "\u03B5"
 
 #endif // Fin _WIN32 4
+
+#ifdef __cplusplus
+} // Cierre de exportaciOn a cpp
+#endif
 
 #endif // Fin _CARACTERES_ESPECIALES_H
