@@ -23,6 +23,8 @@ int main(void) {
     imp(MU);
     imp(MN);
 
+    getchar();
+
     puts("Signos ortograficos");
     imp(Q);
     imp(X);
@@ -79,6 +81,8 @@ int main(void) {
     imp(CARITA1);
     imp(CARITA2);
 
+    getchar();
+
     puts("Figuras");
     imp(EQUIS);
     imp(CIRCULO_TRANSPARENTE);
@@ -96,6 +100,8 @@ int main(void) {
     imp(CORAZON5);
     imp(CORAZON6);
 
+    getchar();
+
     puts("Figuras del poker");
     imp(POKER1);
     imp(POKER2);
@@ -107,6 +113,8 @@ int main(void) {
     puts("Musica");
     imp(NOTA_MUSICAL1);
     imp(NOTA_MUSICAL2);
+
+    getchar();
 
     puts("Sol");
     imp(SOL);
@@ -126,7 +134,7 @@ int main(void) {
 
     getchar();
 
-    puts("CarActeres ");
+    puts("Direcciones");
     imp(FLECHA_IZQUIERDA);
     imp(FLECHA_DERECHA);
     imp(FLECHA_ARRIBA);
@@ -143,7 +151,9 @@ int main(void) {
     imp(FEMENINO);
     imp(MASCULINO);
 
+    puts("")<`0`>;
     puts("Paz");
+
     imp(SIMBOLO_PAZ);
     imp(AMOR_Y_PAZ);
 
@@ -173,6 +183,7 @@ int main(void) {
     imp(LUNA1);
     imp(LUNA2);
 
+    puts("");
     puts("Mates");
     imp(RAIZ);
     imp(INFINITO);
