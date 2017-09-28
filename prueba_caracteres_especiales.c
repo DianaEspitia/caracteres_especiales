@@ -5,7 +5,7 @@
 
 int main(void) {
 
-    puts("Letras minusculas");
+    puts("Letras min" U "sculas");
     imp(A);
     imp(E);
     imp(I);
@@ -15,7 +15,7 @@ int main(void) {
 
     getchar();
 
-    puts("Letras mayusculas");
+    puts("Letras may" U "sculas");
     imp(MA);
     imp(ME);
     imp(MI);
@@ -25,7 +25,7 @@ int main(void) {
 
     getchar();
 
-    puts("Signos ortograficos");
+    puts("Signos ortogr" A "ficos");
     imp(Q);
     imp(X);
 
@@ -147,11 +147,11 @@ int main(void) {
 
     getchar();
 
-    puts("Genero");
+    puts("G" E "nero");
     imp(FEMENINO);
     imp(MASCULINO);
 
-    puts("")<`0`>;
+    puts("");
     puts("Paz");
 
     imp(SIMBOLO_PAZ);
